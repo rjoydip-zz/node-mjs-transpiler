@@ -17,7 +17,7 @@
 		"start": "npm run build && node index",
 		"build": "rm -rf lib && npm run build:cjs",
 		"build:cjs": "./node_modules/.bin/npx babel src --out-dir lib --ext js,mjs --mjs-modules",
-		"test": "xo && nyc ava"
+		"test": "xo --ignore=\"**lib/**/*.js\" && nyc ava"
 	},
 	"files": [
 		"lib"
@@ -48,10 +48,5 @@
 			"text"
 		]
 	},
-	"x0": {
-		"ignores": [
-			".gitignore",
-			"lib"
-		]
-	}
+	"x0": {}
 }
