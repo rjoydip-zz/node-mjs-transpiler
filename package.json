@@ -4,6 +4,7 @@
 	"description": "Transpile node .mjs files using babel transpiler",
 	"license": "MIT",
 	"repository": "rjoydip/node-mjs-transpile",
+	"main": "lib/index.js",
 	"author": {
 		"name": "Joydip Roy",
 		"email": "joydipand@gmail.com",
@@ -15,11 +16,11 @@
 	"scripts": {
 		"start": "npm run build && node index",
 		"build": "rm -rf lib && npm run build:cjs",
-		"build:cjs": "./node_modules/.bin/babel src --out-dir lib --ext js,mjs --mjs-modules",
+		"build:cjs": "./node_modules/.bin/npx babel src --out-dir lib --ext js,mjs --mjs-modules",
 		"test": "xo && nyc ava"
 	},
 	"files": [
-		"index.js"
+		"lib"
 	],
 	"keywords": [
 		"node",
@@ -36,6 +37,7 @@
 		"ava": "^0.25.0",
 		"babel-eslint": "^9.0.0",
 		"codecov": "^3.0.0",
+		"npx": "^10.2.0",
 		"nyc": "^12.0.0",
 		"tinyify": "^2.4.3",
 		"xo": "^0.21.0"
@@ -47,6 +49,9 @@
 		]
 	},
 	"x0": {
-		"ignores": [".gitignore", "lib"]
+		"ignores": [
+			".gitignore",
+			"lib"
+		]
 	}
 }
