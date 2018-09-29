@@ -1,9 +1,9 @@
 {
-	"name": "node-mjs-transpile",
+	"name": "node-mjs-transpiler",
 	"version": "0.0.0",
 	"description": "Transpile node .mjs files using babel transpiler",
 	"license": "MIT",
-	"repository": "rjoydip/node-mjs-transpile",
+	"repository": "rjoydip/node-mjs-transpiler",
 	"main": "lib/index.js",
 	"author": {
 		"name": "Joydip Roy",

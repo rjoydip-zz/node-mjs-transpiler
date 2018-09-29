@@ -1,6 +1,6 @@
-# node-mjs-transpile
+# node-mjs-transpilrr
 
-[![Build Status](https://travis-ci.org/rjoydip/node-mjs-transpile.svg?branch=master)](https://travis-ci.org/rjoydip/node-mjs-transpile) [![codecov](https://codecov.io/gh/rjoydip/node-mjs-transpile/badge.svg?branch=master)](https://codecov.io/gh/rjoydip/node-mjs-transpile?branch=master)
+[![Build Status](https://travis-ci.org/rjoydip/node-mjs-transpilr.svg?branch=master)](https://travis-ci.org/rjoydip/node-mjs-transpilr) [![codecov](https://codecov.io/gh/rjoydip/node-mjs-transpilr/badge.svg?branch=master)](https://codecov.io/gh/rjoydip/node-mjs-transpilr?branch=master)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 > Transpile node .mjs files using babel transpiler
@@ -9,8 +9,8 @@
 ## Install
 
 ```
-$ git clone https://github.com/rjoydip/node-mjs-transpile.git
-$ cd node-mjs-transpile
+$ git clone https://github.com/rjoydip/node-mjs-transpilr.git
+$ cd node-mjs-transpilr
 $ npm install
 $ npm start
 ```
